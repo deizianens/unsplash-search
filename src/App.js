@@ -1,10 +1,11 @@
 import "./App.css";
-import Search from "./components";
+import { Search, Dropdown } from "./components";
 
 function App() {
   return (
     <div className="App">
       <Search />
+      <Dropdown />
     </div>
   );
 }

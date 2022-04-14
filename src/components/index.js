@@ -1,3 +1,2 @@
-import Search from "./Search";
-
-export default Search;
+export { default as Search } from "./Search";
+export { default as Dropdown } from "./Dropdown/Dropdown";
