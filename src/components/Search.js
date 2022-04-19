@@ -4,8 +4,6 @@ import { createUseStyles } from "react-jss";
 const useStyles = createUseStyles({
   searchContainer: {
     width: "490px",
-    display: "block",
-    margin: "0 auto",
   },
   searchBar: {
     margin: "0 auto",
