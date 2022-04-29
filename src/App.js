@@ -9,11 +9,20 @@ function App() {
         <Dropdown />
       </div>
       <div className="image-container">
-        <Image />
-        <Image />
-        <Image />
-        <Image />
-        <Image />
+        <div className="image-column">
+          <Image />
+          <Image />
+          <Image />
+        </div>
+        <div className="image-column">
+          <Image />
+          <Image />
+          <Image />
+        </div>
+        <div className="image-column">
+          <Image />
+          <Image />
+        </div>
       </div>
     </div>
   );

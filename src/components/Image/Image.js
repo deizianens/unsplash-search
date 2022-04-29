@@ -1,4 +1,11 @@
 import React from "react";
+import { createUseStyles } from "react-jss";
+
+const useStyles = createUseStyles({
+  image: {
+    display: "inline-block",
+  },
+});
 
 const Image = () => {
   return (
